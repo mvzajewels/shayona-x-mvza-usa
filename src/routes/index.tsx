@@ -5,7 +5,7 @@ import earringsImg from "@/assets/piece-earrings.jpg";
 import bangleImg from "@/assets/piece-bangle.jpg";
 import modelImg from "@/assets/editorial-model.jpg";
 import craftImg from "@/assets/craft.jpg";
-import heroVideo from "@/assets/hero-video-model.mp4.asset.json";
+import heroVideo from "@/assets/hero-video-model-slow.mp4.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
