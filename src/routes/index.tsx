@@ -5,6 +5,7 @@ import earringsImg from "@/assets/piece-earrings.jpg";
 import bangleImg from "@/assets/piece-bangle.jpg";
 import modelImg from "@/assets/editorial-model.jpg";
 import craftImg from "@/assets/craft.jpg";
+import heroVideo from "@/assets/hero-video.mp4.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -46,10 +47,59 @@ function Nav() {
 
 function Hero() {
   return (
-    <section id="top" className="relative min-h-[100svh] flex flex-col">
+    <section id="top" className="relative flex flex-col">
+      {/* Cinematic collaboration video banner */}
+      <div className="relative w-full h-[70svh] md:h-[88svh] overflow-hidden bg-foreground pt-16 md:pt-20">
+        <video
+          src={heroVideo.url}
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover anim-fade"
+          style={{ animationPlayState: "running", filter: "saturate(1.05)" }}
+        />
+        {/* slow-motion feel via subtle slowdown */}
+        <div className="absolute inset-0 bg-gradient-to-b from-foreground/30 via-transparent to-foreground/50" />
+
+        {/* Top label */}
+        <div className="absolute top-24 md:top-28 left-0 right-0 flex justify-center">
+          <span className="text-[10px] tracking-brand uppercase text-cream/70 font-light">
+            A Collaboration · Spring MMXXVI
+          </span>
+        </div>
+
+        {/* Center wordmark — Shayona × MVZA */}
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-cream px-6 anim-rise">
+          <div className="flex items-center gap-6 md:gap-10 lg:gap-14">
+            <span className="font-serif italic text-3xl md:text-6xl lg:text-7xl font-light leading-none">
+              Shayona
+            </span>
+            <span className="font-extralight tracking-mark text-2xl md:text-5xl lg:text-6xl text-accent">
+              ×
+            </span>
+            <span className="font-extralight tracking-mark text-3xl md:text-6xl lg:text-7xl leading-none">
+              MVZA
+            </span>
+          </div>
+          <span className="mt-6 md:mt-8 text-[10px] md:text-[11px] tracking-brand uppercase text-cream/70 font-light">
+            Jewellery · Reimagined for America
+          </span>
+          <div className="mt-8 h-px w-16 bg-cream/40" />
+        </div>
+
+        {/* Bottom corners */}
+        <div className="absolute bottom-6 left-6 md:left-10 text-[10px] tracking-brand uppercase text-cream/70 font-light">
+          Est. 1984 · Ahmedabad
+        </div>
+        <div className="absolute bottom-6 right-6 md:right-10 text-[10px] tracking-brand uppercase text-cream/70 font-light">
+          New York · Spring '26
+        </div>
+      </div>
+
       <div className="flex-1 grid md:grid-cols-12 gap-0">
         {/* Left text */}
-        <div className="md:col-span-6 flex flex-col justify-center px-6 md:px-16 pt-32 pb-12 md:py-32">
+        <div className="md:col-span-6 flex flex-col justify-center px-6 md:px-16 py-20 md:py-32">
           <div className="anim-rise">
             <p className="text-[10px] tracking-brand uppercase text-muted-foreground mb-10">
               An Introduction · Spring Edition
