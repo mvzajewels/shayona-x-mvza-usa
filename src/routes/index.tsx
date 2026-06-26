@@ -102,10 +102,10 @@ function Hero() {
             <p className="text-[10px] tracking-brand uppercase text-muted-foreground mb-8 md:mb-10">
               An Introduction · Spring Edition
             </p>
-            <h1 className="font-serif italic text-[2.5rem] sm:text-6xl md:text-7xl lg:text-8xl leading-[1.02] md:leading-[0.95] font-light text-foreground">
+            <h1 className="font-serif italic text-[2.5rem] sm:text-6xl md:text-7xl lg:text-8xl leading-[1.05] md:leading-[1] font-light text-foreground">
               Heirloom,<br />
-              <span className="not-italic font-extralight tracking-tight">reimagined</span><br />
-              <span className="italic">for her.</span>
+              reimagined<br />
+              for her.
             </h1>
             <p className="mt-8 md:mt-10 max-w-md mx-auto md:mx-0 text-[14px] md:text-[15px] leading-relaxed text-muted-foreground font-light">
               MVZA arrives in America carrying the quiet authority of
@@ -236,8 +236,8 @@ function Story() {
         </div>
         <div className="md:col-span-7 md:pl-8">
           <p className="text-[10px] tracking-brand uppercase text-muted-foreground mb-6">The House · MVZA × Shayona</p>
-          <h2 className="font-serif text-4xl md:text-6xl font-light leading-[1.05]">
-            Two names. <span className="italic">One lineage</span> of light.
+          <h2 className="font-serif italic text-4xl md:text-6xl font-light leading-[1.05]">
+            Two names. <br/>One lineage of light.
           </h2>
           <div className="mt-10 grid sm:grid-cols-2 gap-8 text-[15px] leading-relaxed text-muted-foreground font-light">
             <p>
@@ -317,8 +317,8 @@ function Journal() {
     <section id="journal" className="px-6 md:px-10 py-24 md:py-36 border-t hairline">
       <div className="mx-auto max-w-[1400px]">
         <div className="flex items-end justify-between mb-16">
-          <h2 className="font-serif text-4xl md:text-6xl font-light leading-tight">
-            <span className="italic">Journal.</span>
+          <h2 className="font-serif italic text-4xl md:text-6xl font-light leading-tight">
+            Journal.
           </h2>
           <p className="text-[10px] tracking-brand uppercase text-muted-foreground">N° 03 — Words</p>
         </div>
