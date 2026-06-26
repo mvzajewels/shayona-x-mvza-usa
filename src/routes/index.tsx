@@ -47,9 +47,9 @@ function Nav() {
 
 function Hero() {
   return (
-    <section id="top" className="relative flex flex-col">
+    <section id="top" className="relative flex flex-col pt-16 md:pt-20">
       {/* Cinematic collaboration video banner */}
-      <div className="relative w-full h-[70svh] md:h-[88svh] overflow-hidden bg-foreground pt-16 md:pt-20">
+      <div className="relative w-full h-[calc(70svh-4rem)] md:h-[calc(88svh-5rem)] overflow-hidden bg-foreground">
         <video
           src={heroVideo.url}
           autoPlay
