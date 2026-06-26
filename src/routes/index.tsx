@@ -102,10 +102,10 @@ function Hero() {
             <p className="text-[10px] tracking-brand uppercase text-muted-foreground mb-8 md:mb-10">
               An Introduction · Spring Edition
             </p>
-            <h1 className="font-serif italic text-[2.5rem] sm:text-6xl md:text-7xl lg:text-8xl leading-[1.02] md:leading-[0.95] font-light text-foreground">
+            <h1 className="font-serif italic text-[2.5rem] sm:text-6xl md:text-7xl lg:text-8xl leading-[1.05] md:leading-[1] font-light text-foreground">
               Heirloom,<br />
-              <span className="not-italic font-extralight tracking-tight">reimagined</span><br />
-              <span className="italic">for her.</span>
+              reimagined<br />
+              for her.
             </h1>
             <p className="mt-8 md:mt-10 max-w-md mx-auto md:mx-0 text-[14px] md:text-[15px] leading-relaxed text-muted-foreground font-light">
               MVZA arrives in America carrying the quiet authority of
