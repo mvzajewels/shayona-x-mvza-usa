@@ -47,9 +47,9 @@ function Nav() {
 
 function Hero() {
   return (
-    <section id="top" className="relative flex flex-col">
+    <section id="top" className="relative flex flex-col pt-16 md:pt-20">
       {/* Cinematic collaboration video banner */}
-      <div className="relative w-full h-[70svh] md:h-[88svh] overflow-hidden bg-foreground pt-16 md:pt-20">
+      <div className="relative w-full h-[calc(70svh-4rem)] md:h-[calc(88svh-5rem)] overflow-hidden bg-foreground">
         <video
           src={heroVideo.url}
           autoPlay
@@ -63,8 +63,8 @@ function Hero() {
         <div className="absolute inset-0 bg-gradient-to-b from-foreground/30 via-transparent to-foreground/50" />
 
         {/* Top label */}
-        <div className="absolute top-24 md:top-28 left-0 right-0 flex justify-center">
-          <span className="text-[10px] tracking-brand uppercase text-cream/70 font-light">
+        <div className="absolute top-6 md:top-10 left-0 right-0 flex justify-center px-4">
+          <span className="text-[10px] tracking-brand uppercase text-cream/70 font-light text-center">
             A Collaboration · Spring MMXXVI
           </span>
         </div>
