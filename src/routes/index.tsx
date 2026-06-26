@@ -236,8 +236,8 @@ function Story() {
         </div>
         <div className="md:col-span-7 md:pl-8">
           <p className="text-[10px] tracking-brand uppercase text-muted-foreground mb-6">The House · MVZA × Shayona</p>
-          <h2 className="font-serif text-4xl md:text-6xl font-light leading-[1.05]">
-            Two names. <span className="italic">One lineage</span> of light.
+          <h2 className="font-serif italic text-4xl md:text-6xl font-light leading-[1.05]">
+            Two names. <br/>One lineage of light.
           </h2>
           <div className="mt-10 grid sm:grid-cols-2 gap-8 text-[15px] leading-relaxed text-muted-foreground font-light">
             <p>
