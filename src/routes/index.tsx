@@ -63,8 +63,8 @@ function Hero() {
         <div className="absolute inset-0 bg-gradient-to-b from-foreground/30 via-transparent to-foreground/50" />
 
         {/* Top label */}
-        <div className="absolute top-24 md:top-28 left-0 right-0 flex justify-center">
-          <span className="text-[10px] tracking-brand uppercase text-cream/70 font-light">
+        <div className="absolute top-6 md:top-10 left-0 right-0 flex justify-center px-4">
+          <span className="text-[10px] tracking-brand uppercase text-cream/70 font-light text-center">
             A Collaboration · Spring MMXXVI
           </span>
         </div>
