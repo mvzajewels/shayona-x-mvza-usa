@@ -317,8 +317,8 @@ function Journal() {
     <section id="journal" className="px-6 md:px-10 py-24 md:py-36 border-t hairline">
       <div className="mx-auto max-w-[1400px]">
         <div className="flex items-end justify-between mb-16">
-          <h2 className="font-serif text-4xl md:text-6xl font-light leading-tight">
-            <span className="italic">Journal.</span>
+          <h2 className="font-serif italic text-4xl md:text-6xl font-light leading-tight">
+            Journal.
           </h2>
           <p className="text-[10px] tracking-brand uppercase text-muted-foreground">N° 03 — Words</p>
         </div>
