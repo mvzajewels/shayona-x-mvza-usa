@@ -145,10 +145,16 @@ function Hero() {
 
       {/* Bottom collab strip */}
       <div className="border-t hairline">
-        <div className="mx-auto max-w-[1400px] px-6 md:px-10 py-5 flex items-center justify-between text-[10px] tracking-brand uppercase font-light text-muted-foreground">
-          <span>MVZA</span>
-          <span className="text-foreground">In Partnership with Shayona Jewels · Est. 1984</span>
-          <span className="hidden md:inline">New York · Ahmedabad</span>
+        <div className="mx-auto max-w-[1400px] px-6 md:px-10 py-5 text-[10px] uppercase font-light text-muted-foreground">
+          <div className="md:hidden flex flex-col items-center justify-center gap-2 text-center leading-relaxed">
+            <span className="tracking-[0.28em] text-foreground">Shayona Jewellery × MVZA</span>
+            <span className="tracking-[0.22em]">In Partnership · Est. 1984</span>
+          </div>
+          <div className="hidden md:flex items-center justify-between tracking-brand">
+            <span>MVZA</span>
+            <span className="text-foreground">In Partnership with Shayona Jewels · Est. 1984</span>
+            <span>New York · Ahmedabad</span>
+          </div>
         </div>
       </div>
     </section>
