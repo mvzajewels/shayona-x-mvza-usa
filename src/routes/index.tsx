@@ -89,11 +89,9 @@ function Hero() {
         </div>
 
         {/* Bottom corners */}
-        <div className="absolute bottom-6 left-6 md:left-10 text-[10px] tracking-brand uppercase text-cream/70 font-light">
-          Est. 1984 · Ahmedabad
-        </div>
-        <div className="absolute bottom-6 right-6 md:right-10 text-[10px] tracking-brand uppercase text-cream/70 font-light">
-          New York · Spring '26
+        <div className="absolute bottom-4 md:bottom-6 left-0 right-0 px-6 md:px-10 flex flex-col md:flex-row items-center justify-between gap-1 text-[9px] md:text-[10px] tracking-brand uppercase text-cream/70 font-light text-center">
+          <span>Est. 1984 · Ahmedabad</span>
+          <span>New York · Spring '26</span>
         </div>
       </div>
 
