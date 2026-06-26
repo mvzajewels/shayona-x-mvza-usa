@@ -97,23 +97,23 @@ function Hero() {
 
       <div className="flex-1 grid md:grid-cols-12 gap-0">
         {/* Left text */}
-        <div className="md:col-span-6 flex flex-col justify-center px-6 md:px-16 py-20 md:py-32">
-          <div className="anim-rise">
-            <p className="text-[10px] tracking-brand uppercase text-muted-foreground mb-10">
+        <div className="md:col-span-6 flex flex-col justify-center px-6 md:px-16 py-16 md:py-32">
+          <div className="anim-rise text-center md:text-left">
+            <p className="text-[10px] tracking-brand uppercase text-muted-foreground mb-8 md:mb-10">
               An Introduction · Spring Edition
             </p>
-            <h1 className="font-serif italic text-5xl md:text-7xl lg:text-8xl leading-[0.95] font-light text-foreground">
+            <h1 className="font-serif italic text-[2.5rem] sm:text-6xl md:text-7xl lg:text-8xl leading-[1.02] md:leading-[0.95] font-light text-foreground">
               Heirloom,<br />
               <span className="not-italic font-extralight tracking-tight">reimagined</span><br />
               <span className="italic">for her.</span>
             </h1>
-            <p className="mt-10 max-w-md text-[15px] leading-relaxed text-muted-foreground font-light">
+            <p className="mt-8 md:mt-10 max-w-md mx-auto md:mx-0 text-[14px] md:text-[15px] leading-relaxed text-muted-foreground font-light">
               MVZA arrives in America carrying the quiet authority of
               <span className="text-foreground"> Shayona Jewels</span> — four decades
               of Indian goldsmithing, distilled into pieces designed for the
               way she lives now.
             </p>
-            <div className="mt-12 flex items-center gap-8">
+            <div className="mt-10 md:mt-12 flex items-center justify-center md:justify-start gap-6 md:gap-8">
               <a
                 href="#collection"
                 className="group inline-flex items-center gap-3 text-[11px] tracking-brand uppercase font-light"
@@ -127,6 +127,7 @@ function Hero() {
             </div>
           </div>
         </div>
+
 
         {/* Right image */}
         <div className="md:col-span-6 relative min-h-[60vh] md:min-h-0 overflow-hidden">
